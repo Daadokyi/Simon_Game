@@ -19,4 +19,4 @@ gamePattern.push(randomChosenColour);
 // selecting the buttoms randomly 
 var selectedButtons = $('.colorButton.' + randomColor);
 
-}
+});
