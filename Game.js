@@ -1,3 +1,6 @@
+// adding jQuerry to select the colors randomly
+$(document).ready(function() {
+
 var gamePattern = [];
 // creating an array to store the colours of the various buttons
     var buttonColours = ["red", "blue", "green", "yellow"];
@@ -13,4 +16,7 @@ var randomChosenColour = buttonColours[randomNumber];
 // adding the randomChosenColor generated to the end of the gamePattern
 gamePattern.push(randomChosenColour);
 
+// selecting the buttoms randomly 
+var selectedButtons = $('.colorButton.' + randomColor);
 
+}
