@@ -10,5 +10,7 @@ function nextSequencce(){
     // Create a new variable called randomChosenColour
 var randomChosenColour = buttonColours[randomNumber];
 
+// adding the randomChosenColor generated to the end of the gamePattern
+gamePattern.push(randomChosenColour);
 
 
