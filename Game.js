@@ -14,7 +14,7 @@ $(document).ready(function() {
         gamePattern.push(randomChosenColour);
 
         // Selecting the button randomly by ID
-        var selectedButton = $("btn" + randomChosenColour);
+        var selectedButton = $("#btn" + randomChosenColour);
 
         // Animate a flash effect on the selected button
         selectedButton.animate({
