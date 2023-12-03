@@ -26,8 +26,8 @@ $(document).ready(function() {
     playSound(randomChosenColour);
 
      // Function to play the sound based on the button color
-     function playSound(color) {
-        var audio = new Audio("sounds/" + color + ".mp3");
+     function playSound(buttonColours) {
+        var audio = new Audio("sounds/" + buttonColours + ".mp3" );
         audio.play();
     }
 });
