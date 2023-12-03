@@ -21,4 +21,13 @@ $(document).ready(function() {
 
     // Call the function to generate the next sequence
     nextSequencce();
+
+    // Play the corresponding sound
+    playSound(randomChosenColour);
+
+     // Function to play the sound based on the button color
+     function playSound(color) {
+        var audio = new Audio("sounds/" + color + ".mp3");
+        audio.play();
+    }
 });
