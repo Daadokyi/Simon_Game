@@ -27,5 +27,23 @@ $(document).ready(function() {
 
     var audio = new Audio("sounds/" + randomChosenColour + ".mp3");
     audio.play();
+
+    $('button').click(function() {
+        // Get the ID of the clicked button
+        var buttonId = $(this).attr('id');
+        
+        // Trigger a handler function (replace this with your custom logic)
+        buttonClickHandler(buttonId);
+    });
+    
+    
+    
+    // Handler function for button click (replace this with your custom logic)
+    function buttonClickHandler(buttonId) {
+        console.log('Button clicked:', buttonId);
+        
+    }   
+
+    
     
 });
