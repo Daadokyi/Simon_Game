@@ -28,7 +28,7 @@ $(document).ready(function() {
     var audio = new Audio("sounds/" + randomChosenColour + ".mp3");
     audio.play();
 
-    $('button').click(function() {
+    $('.btn').click(function() {
         // Get the ID of the clicked button
         var buttonId = $(this).attr('id');
         
