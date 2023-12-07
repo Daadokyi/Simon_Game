@@ -1,4 +1,6 @@
 // adding jQuerry to select the colors randomly
+var userClickedPattern = [];
+
 $(document).ready(function() {
 
     var buttonColours = ["red", "blue", "green", "yellow"];
