@@ -35,6 +35,7 @@ $(document).ready(function() {
         var buttonId = $(this).attr('id');
         playSounds(userChosenColour);
         animatePress(userChosenColour);
+        checkAwnser(userClickedPattern.length - 1);
         
         // Trigger a handler function (replace this with your custom logic)
         buttonClickHandler(buttonId);
