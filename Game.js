@@ -33,8 +33,8 @@ $(document).ready(function() {
     $('.btn').click(function() {
         // Get the ID of the clicked button
         var buttonId = $(this).attr('id');
-        playSounds(userChosenColour);
-        animatePress(userChosenColour);
+        playSounds(randomChosenColour);
+        animatePress(randomChosenColour);
         checkAwnser(userClickedPattern.length - 1);
         
         // Trigger a handler function (replace this with your custom logic)
