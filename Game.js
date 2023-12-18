@@ -25,6 +25,7 @@ $(document).ready(function() {
     nextSequencce();
 
     // Play the corresponding sound
+    function playSound(){};
     playSound(randomChosenColour);
 
     var audio = new Audio("sounds/" + randomChosenColour + ".mp3");
