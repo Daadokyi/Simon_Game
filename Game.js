@@ -57,6 +57,8 @@ function playSound(color) {
         
     }   
 
-    
+    // why isnt the audio playing whne it is refreshed ?
+    //why is the'selectedbuttons' no worling 
+
     
 });
